@@ -1,0 +1,18 @@
+# Write a program to create a dictionary of Hindi words with values as 
+# their English Translation. Provide user with an option to look it up
+
+dict = {'khush' :'Happy', 'rona' :'cry', 'dukhi' :'sad'}
+
+for key in dict:
+    print (key)
+print("enter the word whose meaning you want ")
+x=input()
+
+print(dict[x])
+
+# output : dict = khush
+                  rona
+                  dukhi
+                  enter the word whose meaning you want
+                  rona
+                  cry
